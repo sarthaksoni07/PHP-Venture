@@ -6,9 +6,10 @@ $name = "Sarthak";
 echo $name;
 $age = 21; 
 echo "$name = name and age is $age"; // variable interpolation. this means to write multiple variable in one line .
-
 $name1 ="sparsh";
-echo $name1.$name;
+echo "<br>";
+echo "<h1>$name1.$name</h1>"; 
+echo "<br>";
 $a = 10;
 $b = 20;    
 echo "sum = ".$a +$b;
