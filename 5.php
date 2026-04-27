@@ -20,6 +20,7 @@ $arr2 = array(
 );
 echo $arr2[1][2];
 
+print_r($arr);
 print_r($arr2);
 echo count($arr2);
 
