@@ -16,7 +16,7 @@ $age  = $_POST['age'];
 $name  = trim($_POST['name']);
 $sname  = trim($_POST['sname']);
 
-t ry{
+try{
 
     if(empty($age)|| empty($name)||empty($sname)){
         throw new Exception("values cannot be empty<br>");
